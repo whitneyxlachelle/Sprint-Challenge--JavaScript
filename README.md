@@ -42,6 +42,11 @@ A closure gives you access to an outer function’s scope from an inner function
 
 4. Describe the four rules of the 'this' keyword.
 
+Implicit binding ---'This' is what's left of the period when the function is called.
+New binding --- The 'new' keyword creates a new object, and 'this' points to it.
+Explicit binding ---'Call' and 'Apply' can be used to invoke a function with a value for 'this'. And 'bind' is used to create a new function that’s bound to a 'this' value
+A global object is an object that exists in the global scope
+
 5. Why do we need super() in an extended class?
  
  We need super to pass any new attributes back up to the constructor of the parent object.
